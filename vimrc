@@ -20,6 +20,6 @@ set colorcolumn=80
 
 if has('syntax')
 	syntax on
-    colorscheme torte
+    colorscheme afterglow
 endif
 "
