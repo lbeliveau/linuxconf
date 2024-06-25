@@ -13,13 +13,17 @@ set showmode
 set showcmd
 set expandtab
 set colorcolumn=80
+set nofixendofline
 
 "set textwidth=79
 "set nowrap
 "set nocompatible       " Use Vim defaults (much better!)
 
 if has('syntax')
-	syntax on
+    syntax on
     colorscheme afterglow
+    "syntax enable
+    "set background=dark
+    "colorscheme solarized
 endif
 "
